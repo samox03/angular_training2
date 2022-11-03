@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +6,30 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular_app2';
+  posts = [
+    {
+    title: 'Neat Tree',
+    imageUrl: 'assets/southpark.png',
+    username: 'slow',
+    content: 'I saw this neeat tree today',
+  },
+    {
+      title: 'bottle of tea',
+      imageUrl: 'assets/southpark.png',
+      username: 'slow2',
+      content: 'I ve been in the forest today',
+    },
+    {
+      title: 'blue sky',
+      imageUrl: 'assets/southpark.png',
+      username: 'slow3',
+      content: 'I saw this today',
+    },
+    {
+      title: 'none',
+      imageUrl: 'assets/southpark.png',
+      username: 'slow3!!!!',
+      content: 'I saw nothing',
+    }
+  ]
 }
